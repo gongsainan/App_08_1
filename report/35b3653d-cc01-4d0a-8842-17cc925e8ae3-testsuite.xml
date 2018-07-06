@@ -1,0 +1,28 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1530866092846" stop="1530866092909">
+  <name>test_01</name>
+  <labels/>
+  <test-cases>
+    <test-case start="1530866092846" status="failed" stop="1530866092909">
+      <name>Test_01.test_01</name>
+      <failure>
+        <message>AssertionError: assert 0</message>
+        <stack-trace>self = &lt;test_01.Test_01 object at 0x00000000039A0940&gt;
+
+    def test_01(self):
+&gt;       assert 0
+E       assert 0
+
+Scripts\test_01.py:3: AssertionError</stack-trace>
+      </failure>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="6184-MainThread"/>
+        <label name="host" value="MS-20180520XEZN"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>
